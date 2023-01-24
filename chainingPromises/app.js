@@ -20,3 +20,20 @@ checkInventory(order)
 .catch((errorMessage) => {
   console.log(errorMessage);
 });
+
+
+/*
+Chaining multiple promises
+
+Asynchronous programming that multiples promises depend on each other to execute or that must be executed in a certain order called “composition”
+
+firstPromiseFunction().
+then((firstResolveVal) => {
+  return secondPromiseFunction(firstResolveVal);})
+.then(secondResoleVal) => {
+  console.log(secondResolveVal);})
+
+**common mistake : forget to return : nesting promises instead of nesting them , don’t forget to close }) before .then
+
+
+*/
