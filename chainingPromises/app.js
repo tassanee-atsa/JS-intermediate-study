@@ -26,14 +26,15 @@ checkInventory(order)
 Chaining multiple promises
 
 Asynchronous programming that multiples promises depend on each other to execute or that must be executed in a certain order called “composition”
+ommon mistake : forget to return : nesting promises instead of nesting them , don’t forget to close }) before .then
+*/
 
 firstPromiseFunction().
 then((firstResolveVal) => {
   return secondPromiseFunction(firstResolveVal);})
 .then(secondResoleVal) => {
-  console.log(secondResolveVal);})
-
-**common mistake : forget to return : nesting promises instead of nesting them , don’t forget to close }) before .then
+  console.log(secondResolveVal);}
 
 
-*/
+
+
