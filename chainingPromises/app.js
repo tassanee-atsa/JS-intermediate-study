@@ -21,11 +21,6 @@ checkInventory(order)
   console.log(errorMessage);
 });
 
-firstPromiseFunction().
-then((firstResolveVal) => {
-  return secondPromiseFunction(firstResolveVal);})
-.then(secondResoleVal) => {
-  console.log(secondResolveVal);}
 
 /*
 Chaining multiple promises
