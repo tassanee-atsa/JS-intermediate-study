@@ -13,3 +13,10 @@ const prom = new Promise((resolve, reject) => {
   
   
   prom.then(handleSuccess); // Prints: 'Yay!'
+
+  /*With typical promise consumption, 
+  we won’t know whether a promise will resolve or reject, 
+  so we’ll need to provide the logic for either case. 
+  We can pass both a success callback and a failure callback to .then() */
+
+  
