@@ -19,4 +19,13 @@ const prom = new Promise((resolve, reject) => {
   so we’ll need to provide the logic for either case. 
   We can pass both a success callback and a failure callback to .then() */
 
+  let prom = new Promise((resolve, reject) => {
+    let num = Math.random();
+    if (num < .5 ){
+      resolve('Yay!');
+    } else {
+      reject('Ohhh noooo!');
+    }
+  });
+  
   
