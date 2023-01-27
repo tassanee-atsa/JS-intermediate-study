@@ -54,16 +54,7 @@ const store = {
   };
   
   
-  const shipOrder = (responseArray) => {
-    const order = responseArray[0];
-    const trackingNum = responseArray[1];
-    return new Promise ((resolve, reject) => {
-     setTimeout(()=> {  
-       resolve(`The order has been shipped. The tracking number is: ${trackingNum}.`);
-  }, generateRandomDelay());
-   });
-  };
-  
+ 
   
   // This function generates a random number to serve as a "tracking number" on the shipping label. In real life this wouldn't be a random number
   function generateTrackingNumber() {
