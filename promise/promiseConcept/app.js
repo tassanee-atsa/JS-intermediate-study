@@ -14,3 +14,8 @@ const executorFunction = ( resolve, reject) => {  } ;
 const  myFirstPromise = new Promise(executorFunction);
 
 
+/*
+Refer to resolve() → change the promise’s status from pending to fulfilled :
+reject () → change the promise’s status from pending to rejected. 
+
+*/
