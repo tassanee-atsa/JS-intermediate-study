@@ -19,3 +19,12 @@ Refer to resolve() → change the promise’s status from pending to fulfilled :
 reject () → change the promise’s status from pending to rejected. 
 
 */
+const myExecutorFunction = (resolve, reject ) => {
+    If (someCondition); {
+       Resolve ("I resolved!");
+      } else { reject ( "I rejected");
+    }
+}
+  
+  const mysecondPromise = new Promise (executorFunction);
+  
