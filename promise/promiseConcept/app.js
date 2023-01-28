@@ -9,3 +9,8 @@ Settled → fulfilled or rejected.
 
 Construction a Promise object:
 */
+
+const executorFunction = ( resolve, reject) => {  } ;
+const  myFirstPromise = new Promise(executorFunction);
+
+
