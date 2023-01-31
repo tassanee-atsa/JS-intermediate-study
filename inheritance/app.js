@@ -8,3 +8,8 @@ class Cat extends Animal {
      }
 }
 
+//Children class inherit both properties and methods from the parent class.
+//Child class can contain their own properties and methods.
+
+//Static Method → can not call from the instance but can call directly from the class. Eg in Animal class —>
+
