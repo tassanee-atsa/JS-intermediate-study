@@ -43,4 +43,17 @@ Const {x, y} = z;
             * *Have to update <script type =”module” src=”./….”></script>
 Const {x,y } = z ; is ES6 destructuring syntax.
 
+In node runtime environment : module.exports and require() → 2 writing ways
+
+function nameX () = {...};
+module.exports.nameX = nameX;
+
+module.exports.nameX = function(){..}
+
+Or module.exports.nameX =() =>{...};
+
+Or module.exports = {funcX, funcY};
+—-----------------------
+
+
 */
