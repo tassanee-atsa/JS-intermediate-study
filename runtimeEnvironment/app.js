@@ -16,3 +16,9 @@ Node (backend) process is an object containing data related to the JS file being
 -Process.env is an object containing environment variables.
 -To execute, run node my-app.js
 */
+
+/*Modules
+Reusable pieces of code in a file that can be exported and imported for use in another file. Reduce repetition. 
+Modular program is the one whose components can be separated, used individually and recombined to create a complex system.
+Separation of concerns
+*/
