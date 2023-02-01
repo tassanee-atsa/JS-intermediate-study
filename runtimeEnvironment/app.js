@@ -55,5 +55,15 @@ Or module.exports.nameX =() =>{...};
 Or module.exports = {funcX, funcY};
 —-----------------------
 
+const nameA = require(‘accept string : is the file path’)
+This means that the entire module.exports object is stored in nameA : any functions that are exported can be used here.
+
+Using object Destructuring to be more selective with require()
+Const {nameX, nameY} = require(‘....’);
+
+Ways to extract value out of an object.
+Const {valueA, valueB} = object;
+Or const {valueA} = object.valueA;
+const {valueB} = object.valueB;
 
 */
