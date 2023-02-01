@@ -21,4 +21,26 @@ Node (backend) process is an object containing data related to the JS file being
 Reusable pieces of code in a file that can be exported and imported for use in another file. Reduce repetition. 
 Modular program is the one whose components can be separated, used individually and recombined to create a complex system.
 Separation of concerns
+
+Implementation of Modules in JS:
+
+In brower’s runtime environment : ECMAScript6(ES6)  import/export
+ export { a, b };
+export const a = () => {}
+export const b = () => {}
+
+Import {a,b} from “./…”
+Remaining imports to avoid naming collisions → import { x as newA } from ‘./…’
+Import {x as newB} from ‘./…’
+
+Default values– > 
+Const z = {x, y}
+export { z as default }; shorthand is export default Z;
+
+Import {default as z} ; shorthand is Import z from ‘./…’
+Const {x, y} = z;
+
+            * *Have to update <script type =”module” src=”./….”></script>
+Const {x,y } = z ; is ES6 destructuring syntax.
+
 */
