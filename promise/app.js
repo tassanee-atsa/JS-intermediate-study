@@ -10,14 +10,7 @@ An initial state of promise is pending.  But we have a guarantee that it will se
 Success and failure Callback functions
 */
 
-const prom = new Promise ((resolve, reject ) => {
-    let num = Math.random();
-    If (num < .5); {
-      resolve ("Yay");
-    } else {
-      reject ("Ohh nooo!");
-    }
-  });
+
 
   handleSuccess = (resolvedValue) => {
     console.log(resolvedValue);
