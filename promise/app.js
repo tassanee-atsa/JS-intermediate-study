@@ -19,7 +19,16 @@ const prom = new Promise ((resolve, reject ) => {
     }
   });
 
-
+  handleSuccess = (resolvedValue) => {
+    console.log(resolvedValue);
+    };
+    
+    const handleFailure = (rejectionReason) => {
+      console.log(rejectionReason);
+    };
+    
+    prom.then(handleSuccess, handleFailure);
+    
 
 
 /*Using catch() with promise
